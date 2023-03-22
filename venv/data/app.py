@@ -17,7 +17,7 @@ visualization = dcc.Graph(
 app.layout = html.Div(children=[
     html.H1(children='Pink Morsels Sales Analysis - Soul Food'),
     html.Div(children='''Sales analysis to and from price increase on 15th Jan.'''),
-    dcc.Graph(id='example-graph', figure=fig)
+    dcc.Graph(id='line-graph', figure=fig)
 ])
 
 if __name__ == '__main__':
